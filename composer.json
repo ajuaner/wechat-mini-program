@@ -1,0 +1,24 @@
+{
+    "name": "qinii/wechat-mini-program",
+    "description": "基于 EasyWeChat 6 的微信小程序能力扩展包",
+    "type": "library",
+    "license": "MulanPSL-2.0",
+    "require": {
+        "php": "^8.0",
+        "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
+        "qinii/wechat-core": "^0.1.0",
+        "symfony/http-client-contracts": "^3.0",
+        "w7corp/easywechat": "^6.19.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qinii\\WechatMiniProgram\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
